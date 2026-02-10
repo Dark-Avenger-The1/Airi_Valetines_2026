@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Pixelify Sans";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+figcaption {
+  margin-bottom: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+figure div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+figure div a {
+  width: 40%;
+}
+figure div a button {
+  width: 100%;
+  background-color: transparent;
+}
+figure div a button:hover {
+  background-color: rgba(142, 141, 141, 0.351);
+}/*# sourceMappingURL=general.css.map */

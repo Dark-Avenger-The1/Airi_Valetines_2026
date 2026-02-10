@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Pixelify Sans';
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+figcaption{
+    margin-bottom: 10px;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        a{
+            width: 40%;
+            button{
+            width: 100%;
+            background-color: transparent;
+            &:hover{
+                background-color: rgba(142, 141, 141, 0.351);
+            }
+        }
+        }
+    }
+}
