@@ -1,6 +1,4 @@
-Here is a clean, GitHub-standard `README.md` for your project. I have simplified the language and focused on the technical "why" behind the `formResponse` URL.
 
----
 
 # Google Form Auto-Submitter
 
